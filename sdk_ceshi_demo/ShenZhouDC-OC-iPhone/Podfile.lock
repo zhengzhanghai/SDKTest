@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - HMImagePicker (1.0.4)
+  - IQKeyboardManager (5.0.4)
+  - JSONModel (1.7.0)
+  - LBXScan (1.1.1):
+    - ZXingObjC (~> 3.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.14)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.2)
+  - ZFPlayer (2.1.5):
+    - Masonry
+  - ZXingObjC (3.2.1):
+    - ZXingObjC/All (= 3.2.1)
+  - ZXingObjC/All (3.2.1)
+  - ZYSideSlipFilter (0.5.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - FDFullscreenPopGesture
+  - HMImagePicker (~> 1.0.4)
+  - IQKeyboardManager
+  - JSONModel
+  - LBXScan (= 1.1.1)
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh
+  - SDCycleScrollView (~> 1.64)
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD
+  - ZFPlayer
+  - ZYSideSlipFilter (~> 0.5.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HMImagePicker: 08e16f5ce2634c8290ddefb334368e7a8a6bffd2
+  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 6642e35b3227a5447b9fd5e17c552c90196c9859
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  ZFPlayer: 8a80bf8eb4638b97fbceaefcd3ca9978e9f17c9d
+  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
+  ZYSideSlipFilter: 6946b221476c25a5e2d4acff44f1748349d01f62
+
+PODFILE CHECKSUM: f1018d33807cbccd6a384e7d01f41c1c58335c97
+
+COCOAPODS: 1.4.0

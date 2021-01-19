@@ -10,7 +10,7 @@
 #import "FavoriteTableViewCell.h"
 #import "FavoriteModel.h"
 #import "JieJueDetailsViewController.h"
-#import "ProductDetailsController.h"
+//#import "ProductDetailsController.h"
 #import "FavoriteTextTableViewCell.h"
 #import <MJRefresh/MJRefresh.h>
 
@@ -120,10 +120,10 @@
             break;
         case 3:
         {
-            ProductDetailsController *vc = [[ProductDetailsController alloc] init];
-            vc.productId = model.goodsid.stringValue;
-            vc.hidesBottomBarWhenPushed = true;
-            [self.navigationController pushViewController:vc animated:true];
+//            ProductDetailsController *vc = [[ProductDetailsController alloc] init];
+//            vc.productId = model.goodsid.stringValue;
+//            vc.hidesBottomBarWhenPushed = true;
+//            [self.navigationController pushViewController:vc animated:true];
         }
             break;
         case 4:

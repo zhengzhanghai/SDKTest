@@ -12,7 +12,7 @@
 #import "ChanPinDetailsViewController.h"
 #import "ChanPinTableViewCell.h"
 #import "ChanPinModel.h"
-#import "ChanPinDetailsWEBController.h"
+//#import "ChanPinDetailsWEBController.h"
 
 #define NOT_EXIST_CATEGORY_STRING @"notExistCategoryId"
 
@@ -133,11 +133,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ChanPinDetailsWEBController *vc = [[ChanPinDetailsWEBController alloc]init];
-    ChanPinModel *model = self.dataSourse[indexPath.row];
-    vc.loadURLString = model.dataUrl;
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+//    ChanPinDetailsWEBController *vc = [[ChanPinDetailsWEBController alloc]init];
+//    ChanPinModel *model = self.dataSourse[indexPath.row];
+//    vc.loadURLString = model.dataUrl;
+//    vc.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

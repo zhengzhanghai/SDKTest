@@ -7,8 +7,8 @@
 //
 
 #import "VideoCenterViewController.h"
-#import "VideoPlayViewController.h"
-#import "VideoCell.h"
+//#import "VideoPlayViewController.h"
+//#import "VideoCell.h"
 #import "VideoModel.h"
 
 @interface VideoCenterViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -71,16 +71,16 @@
     return self.dataSource.count;//self.videoList.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    VideoCell *cell = [VideoCell VideoCell:tableView indexPath:indexPath];
+//    VideoCell *cell = [VideoCell VideoCell:tableView indexPath:indexPath];
     
     //    [cell refreshFileListCellWithModel:self.videoList[indexPath.row]];
-    return cell;
+    return nil;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    VideoPlayViewController *vc = [[VideoPlayViewController alloc]init];
-    vc.hidesBottomBarWhenPushed = YES;
-    vc.videoURL = self.dataSource[indexPath.row];
-    [self.navigationController pushViewController:vc animated:YES];
+//    VideoPlayViewController *vc = [[VideoPlayViewController alloc]init];
+//    vc.hidesBottomBarWhenPushed = YES;
+//    vc.videoURL = self.dataSource[indexPath.row];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 110;

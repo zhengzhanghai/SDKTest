@@ -7,7 +7,7 @@
 //
 
 #import "VideoDownloadRecordViewController.h"
-#import "VideoPlayViewController.h"
+//#import "VideoPlayViewController.h"
 #import "ZFDownloadManager.h"
 #import "MeChooseMenuView.h"
 #import "ZFPlayer.h"
@@ -116,12 +116,12 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:true];
     if (_showType == 0) {
-        VideoPlayViewController *vc = [[VideoPlayViewController alloc]init];
-        ZFFileModel *fileModel = _downloadedArray[indexPath.row];
-        vc.videoURL = [NSURL fileURLWithPath:FILE_PATH(fileModel.fileSeekName)];
-        vc.titleTxt = fileModel.fileName;
-        vc.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:vc animated:YES];
+//        VideoPlayViewController *vc = [[VideoPlayViewController alloc]init];
+//        ZFFileModel *fileModel = _downloadedArray[indexPath.row];
+//        vc.videoURL = [NSURL fileURLWithPath:FILE_PATH(fileModel.fileSeekName)];
+//        vc.titleTxt = fileModel.fileName;
+//        vc.hidesBottomBarWhenPushed = YES;
+//        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

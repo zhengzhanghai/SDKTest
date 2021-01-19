@@ -36,13 +36,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+//    [TestView showToWindow];
+    
+    
+        
     self.index = 1;
     [self loadJieJueList:@"1" loadWay:LoadListWayDefault];
     [self loadADSList];
     [self makeSearchBtn];
     [self makeScanBtn];
     
-    [TestView showToWindow];
+    
 }
 
 /** 导航栏搜索按钮 */

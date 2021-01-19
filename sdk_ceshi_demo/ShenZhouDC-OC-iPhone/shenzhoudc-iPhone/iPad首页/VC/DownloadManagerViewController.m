@@ -7,7 +7,7 @@
 //
 
 #import "DownloadManagerViewController.h"
-#import "VideoPlayViewController.h"
+//#import "VideoPlayViewController.h"
 #import "ZFDownloadManager.h"
 #import "FileDownloadedCell.h"
 #import "FileDownloadingCell.h"
@@ -91,11 +91,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
-        VideoPlayViewController *vc = [[VideoPlayViewController alloc]init];
-        vc.hidesBottomBarWhenPushed = YES;
-        ZFFileModel *fileModel = _downloadedArray[indexPath.row];
-        vc.videoURL = fileModel.fileURL;
-        [self.navigationController pushViewController:vc animated:YES];
+//        VideoPlayViewController *vc = [[VideoPlayViewController alloc]init];
+//        vc.hidesBottomBarWhenPushed = YES;
+//        ZFFileModel *fileModel = _downloadedArray[indexPath.row];
+//        vc.videoURL = fileModel.fileURL;
+//        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

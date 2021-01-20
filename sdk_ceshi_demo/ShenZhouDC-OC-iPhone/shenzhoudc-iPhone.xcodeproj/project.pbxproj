@@ -3791,7 +3791,7 @@
 					"-framework",
 					"\"ZYSideSlipFilter\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nubula.zzh.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebula.zzh.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_BATCH_MODE = NO;
@@ -3860,7 +3860,7 @@
 					"-framework",
 					"\"ZYSideSlipFilter\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nubula.zzh.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebula.zzh.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_BATCH_MODE = NO;

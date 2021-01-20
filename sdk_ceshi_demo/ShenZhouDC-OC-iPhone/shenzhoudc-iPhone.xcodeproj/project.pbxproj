@@ -468,6 +468,8 @@
 		AD5173661F5C184800EC5400 /* MyKeyProjectImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5173651F5C184800EC5400 /* MyKeyProjectImageTableViewCell.m */; };
 		AD5173691F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5173681F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.m */; };
 		AD629B3B1F59D62F009A133A /* MeChooseMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD629B3A1F59D62F009A133A /* MeChooseMenuView.m */; };
+		AD69044C25B832540011C53D /* ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD69044A25B832540011C53D /* ZHTestSDK.framework */; };
+		AD69044D25B832540011C53D /* ZHTestSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD69044B25B832540011C53D /* ZHTestSDKResource.bundle */; };
 		AD9CF813259D6ED50054838E /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CF812259D6ED50054838E /* TestView.m */; };
 		AD9CF8AB25B6E1830054838E /* ChanPinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CF8AA25B6E1830054838E /* ChanPinModel.m */; };
 		AD9CF8AF25B6E1EC0054838E /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CF8AE25B6E1EC0054838E /* VideoModel.m */; };
@@ -1408,6 +1410,8 @@
 		AD5173681F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyProjectOperateImageTableViewCell.m; sourceTree = "<group>"; };
 		AD629B391F59D62F009A133A /* MeChooseMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeChooseMenuView.h; sourceTree = "<group>"; };
 		AD629B3A1F59D62F009A133A /* MeChooseMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeChooseMenuView.m; sourceTree = "<group>"; };
+		AD69044A25B832540011C53D /* ZHTestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZHTestSDK.framework; sourceTree = "<group>"; };
+		AD69044B25B832540011C53D /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZHTestSDKResource.bundle; sourceTree = "<group>"; };
 		AD9CF811259D6ED50054838E /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		AD9CF812259D6ED50054838E /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		AD9CF8A925B6E1830054838E /* ChanPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChanPinModel.h; sourceTree = "<group>"; };
@@ -1508,6 +1512,7 @@
 				710725E01E836BCE00AAB527 /* MediaPlayer.framework in Frameworks */,
 				710725DE1E82C3FF00AAB527 /* MobileCoreServices.framework in Frameworks */,
 				269819791E2CC78000F693B3 /* CoreMotion.framework in Frameworks */,
+				AD69044C25B832540011C53D /* ZHTestSDK.framework in Frameworks */,
 				269819771E2CC62200F693B3 /* UIKit.framework in Frameworks */,
 				269819751E2CC61B00F693B3 /* Foundation.framework in Frameworks */,
 				269819731E2CC45800F693B3 /* Security.framework in Frameworks */,
@@ -2757,6 +2762,7 @@
 		89FFC0271E0B6DE100A5E21D = {
 			isa = PBXGroup;
 			children = (
+				AD69044925B832540011C53D /* sdk_bundle */,
 				89FFC0321E0B6DE100A5E21D /* shenzhoudc-iPhone */,
 				89FFC0311E0B6DE100A5E21D /* Products */,
 				4EC49C886898BFC264D6F384 /* Pods */,
@@ -2918,6 +2924,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AD69044925B832540011C53D /* sdk_bundle */ = {
+			isa = PBXGroup;
+			children = (
+				AD69044A25B832540011C53D /* ZHTestSDK.framework */,
+				AD69044B25B832540011C53D /* ZHTestSDKResource.bundle */,
+			);
+			path = sdk_bundle;
+			sourceTree = "<group>";
+		};
 		ADBB7BF724BF448A00035D4F /* WKWebView+HeaderFooter */ = {
 			isa = PBXGroup;
 			children = (
@@ -3065,6 +3080,7 @@
 				B36CA2CF1E1242FB00474E68 /* GroomViewController.xib in Resources */,
 				894A33AB1E0D266600FCAEB7 /* PaiMainViewController.xib in Resources */,
 				26FF7C211E151449005D53AE /* AllSuccessCaseViewController.xib in Resources */,
+				AD69044D25B832540011C53D /* ZHTestSDKResource.bundle in Resources */,
 				894A33DB1E0D381000FCAEB7 /* PaiTableViewCell.xib in Resources */,
 				B307F4581E13A59B000D60DD /* RequirementDetaiHeaderCollectionReusableView.xib in Resources */,
 				710727481E84F9B400AAB527 /* MenuCell.xib in Resources */,
@@ -3728,10 +3744,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G52CMN8P9A;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/shenzhoudc-iPhone/Libs/AlipaySDK",
 					"$(PROJECT_DIR)/shenzhoudc-iPhone/Tools/QQ分享",
+					"$(PROJECT_DIR)/sdk_bundle",
 				);
 				GCC_PREFIX_HEADER = "shenzhoudc-iPhone/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -3795,10 +3813,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G52CMN8P9A;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/shenzhoudc-iPhone/Libs/AlipaySDK",
 					"$(PROJECT_DIR)/shenzhoudc-iPhone/Tools/QQ分享",
+					"$(PROJECT_DIR)/sdk_bundle",
 				);
 				GCC_PREFIX_HEADER = "shenzhoudc-iPhone/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (

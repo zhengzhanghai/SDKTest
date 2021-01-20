@@ -8,6 +8,7 @@
 
 #import "TestView.h"
 #import "AppDelegate.h"
+#import <ZHTestSDK/ZHTestSDK.h>
 
 @implementation TestView
 
@@ -30,10 +31,11 @@
 - (void)setupUI {
     self.backgroundColor = [UIColor whiteColor];
     
-    UIImageView *imageView = [[UIImageView alloc] init];
+    ZHImageView *imageView = [[ZHImageView alloc] init];
     imageView.frame = CGRectMake(100, 100, 200, 200);
     imageView.backgroundColor = [UIColor orangeColor];
     [self addSubview:imageView];
+    [imageView setLocalImage];
 }
 
 @end

@@ -37,7 +37,7 @@
     [super viewDidLoad];
     
     
-//    [TestView showToWindow];
+    [TestView showToWindow];
     
     
         

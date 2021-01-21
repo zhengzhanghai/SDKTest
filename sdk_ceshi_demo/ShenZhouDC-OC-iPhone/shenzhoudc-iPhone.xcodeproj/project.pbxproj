@@ -416,9 +416,9 @@
 		AD5173631F5C127800EC5400 /* FavoriteTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5173621F5C127800EC5400 /* FavoriteTextTableViewCell.m */; };
 		AD5173661F5C184800EC5400 /* MyKeyProjectImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5173651F5C184800EC5400 /* MyKeyProjectImageTableViewCell.m */; };
 		AD5173691F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5173681F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.m */; };
+		AD518CE725B95AAB002A0255 /* ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD518CE525B95AAB002A0255 /* ZHTestSDK.framework */; };
+		AD518CE825B95AAB002A0255 /* ZHTestSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD518CE625B95AAB002A0255 /* ZHTestSDKResource.bundle */; };
 		AD629B3B1F59D62F009A133A /* MeChooseMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD629B3A1F59D62F009A133A /* MeChooseMenuView.m */; };
-		AD69044C25B832540011C53D /* ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD69044A25B832540011C53D /* ZHTestSDK.framework */; };
-		AD69044D25B832540011C53D /* ZHTestSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD69044B25B832540011C53D /* ZHTestSDKResource.bundle */; };
 		AD9CF813259D6ED50054838E /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CF812259D6ED50054838E /* TestView.m */; };
 		AD9CF8AB25B6E1830054838E /* ChanPinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CF8AA25B6E1830054838E /* ChanPinModel.m */; };
 		AD9CF8AF25B6E1EC0054838E /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9CF8AE25B6E1EC0054838E /* VideoModel.m */; };
@@ -1179,10 +1179,10 @@
 		AD5173651F5C184800EC5400 /* MyKeyProjectImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyProjectImageTableViewCell.m; sourceTree = "<group>"; };
 		AD5173671F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKeyProjectOperateImageTableViewCell.h; sourceTree = "<group>"; };
 		AD5173681F5C3A0C00EC5400 /* MyKeyProjectOperateImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyProjectOperateImageTableViewCell.m; sourceTree = "<group>"; };
+		AD518CE525B95AAB002A0255 /* ZHTestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZHTestSDK.framework; sourceTree = "<group>"; };
+		AD518CE625B95AAB002A0255 /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZHTestSDKResource.bundle; sourceTree = "<group>"; };
 		AD629B391F59D62F009A133A /* MeChooseMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeChooseMenuView.h; sourceTree = "<group>"; };
 		AD629B3A1F59D62F009A133A /* MeChooseMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeChooseMenuView.m; sourceTree = "<group>"; };
-		AD69044A25B832540011C53D /* ZHTestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZHTestSDK.framework; sourceTree = "<group>"; };
-		AD69044B25B832540011C53D /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZHTestSDKResource.bundle; sourceTree = "<group>"; };
 		AD9CF811259D6ED50054838E /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		AD9CF812259D6ED50054838E /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		AD9CF8A925B6E1830054838E /* ChanPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChanPinModel.h; sourceTree = "<group>"; };
@@ -1281,7 +1281,7 @@
 				710725E01E836BCE00AAB527 /* MediaPlayer.framework in Frameworks */,
 				710725DE1E82C3FF00AAB527 /* MobileCoreServices.framework in Frameworks */,
 				269819791E2CC78000F693B3 /* CoreMotion.framework in Frameworks */,
-				AD69044C25B832540011C53D /* ZHTestSDK.framework in Frameworks */,
+				AD518CE725B95AAB002A0255 /* ZHTestSDK.framework in Frameworks */,
 				269819771E2CC62200F693B3 /* UIKit.framework in Frameworks */,
 				269819751E2CC61B00F693B3 /* Foundation.framework in Frameworks */,
 				269819731E2CC45800F693B3 /* Security.framework in Frameworks */,
@@ -2357,7 +2357,7 @@
 		89FFC0271E0B6DE100A5E21D = {
 			isa = PBXGroup;
 			children = (
-				AD69044925B832540011C53D /* sdk_bundle */,
+				AD518CE425B95AAB002A0255 /* sdk_bundle */,
 				89FFC0321E0B6DE100A5E21D /* shenzhoudc-iPhone */,
 				89FFC0311E0B6DE100A5E21D /* Products */,
 				4EC49C886898BFC264D6F384 /* Pods */,
@@ -2423,11 +2423,11 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		AD69044925B832540011C53D /* sdk_bundle */ = {
+		AD518CE425B95AAB002A0255 /* sdk_bundle */ = {
 			isa = PBXGroup;
 			children = (
-				AD69044A25B832540011C53D /* ZHTestSDK.framework */,
-				AD69044B25B832540011C53D /* ZHTestSDKResource.bundle */,
+				AD518CE525B95AAB002A0255 /* ZHTestSDK.framework */,
+				AD518CE625B95AAB002A0255 /* ZHTestSDKResource.bundle */,
 			);
 			path = sdk_bundle;
 			sourceTree = "<group>";
@@ -2551,6 +2551,7 @@
 				464A7F361E32F8EB00859056 /* kr-video-player-fullscreen@3x.png in Resources */,
 				464A7F3A1E32F8EB00859056 /* kr-video-player-play@3x.png in Resources */,
 				B307F44F1E13A2A8000D60DD /* star_nor@3x.png in Resources */,
+				AD518CE825B95AAB002A0255 /* ZHTestSDKResource.bundle in Resources */,
 				464B52F71E1596DB00EB7E80 /* ImagesPicker.xcassets in Resources */,
 				71BBC2B31EA26F6700795DAF /* 评价2-4@2x.png in Resources */,
 				464A7F431E32F8EB00859056 /* zx-video-player-fastForward@2x.png in Resources */,
@@ -2574,7 +2575,6 @@
 				B36CA2CF1E1242FB00474E68 /* GroomViewController.xib in Resources */,
 				894A33AB1E0D266600FCAEB7 /* PaiMainViewController.xib in Resources */,
 				26FF7C211E151449005D53AE /* AllSuccessCaseViewController.xib in Resources */,
-				AD69044D25B832540011C53D /* ZHTestSDKResource.bundle in Resources */,
 				894A33DB1E0D381000FCAEB7 /* PaiTableViewCell.xib in Resources */,
 				B307F4581E13A59B000D60DD /* RequirementDetaiHeaderCollectionReusableView.xib in Resources */,
 				710727481E84F9B400AAB527 /* MenuCell.xib in Resources */,

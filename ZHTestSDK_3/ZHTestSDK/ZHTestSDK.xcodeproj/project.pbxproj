@@ -1,0 +1,1203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9297A7BA90449344266C278 /* Pods_ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3D11694E861C49F99A88A /* Pods_ZHTestSDK.framework */; };
+		AD518DA625B978BF002A0255 /* NSMutableArray+JBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D6425B978BE002A0255 /* NSMutableArray+JBStack.m */; };
+		AD518DA725B978BF002A0255 /* NSMutableArray+JBStack.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D6525B978BE002A0255 /* NSMutableArray+JBStack.h */; };
+		AD518DA825B978BF002A0255 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D6725B978BE002A0255 /* JBLineChartView.m */; };
+		AD518DA925B978BF002A0255 /* JBGradientLineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D6925B978BE002A0255 /* JBGradientLineLayer.h */; };
+		AD518DAA25B978BF002A0255 /* JBShapeLineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D6A25B978BE002A0255 /* JBShapeLineLayer.h */; };
+		AD518DAB25B978BF002A0255 /* JBGradientLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D6B25B978BE002A0255 /* JBGradientLineLayer.m */; };
+		AD518DAC25B978BF002A0255 /* JBShapeLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D6C25B978BE002A0255 /* JBShapeLineLayer.m */; };
+		AD518DAD25B978BF002A0255 /* JBLineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D6E25B978BE002A0255 /* JBLineChartPoint.m */; };
+		AD518DAE25B978BF002A0255 /* JBLineChartLine.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D6F25B978BE002A0255 /* JBLineChartLine.h */; };
+		AD518DAF25B978BF002A0255 /* JBLineChartLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D7025B978BE002A0255 /* JBLineChartLine.m */; };
+		AD518DB025B978BF002A0255 /* JBLineChartPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7125B978BE002A0255 /* JBLineChartPoint.h */; };
+		AD518DB125B978BF002A0255 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7225B978BE002A0255 /* JBLineChartView.h */; };
+		AD518DB225B978BF002A0255 /* JBLineChartDotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D7425B978BE002A0255 /* JBLineChartDotsView.m */; };
+		AD518DB325B978BF002A0255 /* JBLineChartDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7525B978BE002A0255 /* JBLineChartDotView.h */; };
+		AD518DB425B978BF002A0255 /* JBLineChartLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D7625B978BE002A0255 /* JBLineChartLinesView.m */; };
+		AD518DB525B978BF002A0255 /* JBLineChartDotsView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7725B978BE002A0255 /* JBLineChartDotsView.h */; };
+		AD518DB625B978BF002A0255 /* JBLineChartLinesView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7825B978BE002A0255 /* JBLineChartLinesView.h */; };
+		AD518DB725B978BF002A0255 /* JBLineChartDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D7925B978BE002A0255 /* JBLineChartDotView.m */; };
+		AD518DB825B978BF002A0255 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D7B25B978BE002A0255 /* JBBarChartView.m */; };
+		AD518DB925B978BF002A0255 /* JBGradientBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7D25B978BE002A0255 /* JBGradientBarView.h */; };
+		AD518DBA25B978BF002A0255 /* JBGradientBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D7E25B978BE002A0255 /* JBGradientBarView.m */; };
+		AD518DBB25B978BF002A0255 /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D7F25B978BE002A0255 /* JBBarChartView.h */; };
+		AD518DBC25B978BF002A0255 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D8125B978BE002A0255 /* JBChartView.m */; };
+		AD518DBD25B978BF002A0255 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8225B978BE002A0255 /* JBChartView.h */; };
+		AD518DBE25B978BF002A0255 /* PNChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8425B978BE002A0255 /* PNChart.h */; };
+		AD518DBF25B978BF002A0255 /* PNPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8525B978BE002A0255 /* PNPieChart.h */; };
+		AD518DC025B978BF002A0255 /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D8625B978BE002A0255 /* PNPieChartDataItem.m */; };
+		AD518DC125B978BF002A0255 /* PNLineChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8725B978BE002A0255 /* PNLineChartDataItem.h */; };
+		AD518DC225B978BF002A0255 /* PNBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8825B978BE002A0255 /* PNBar.h */; };
+		AD518DC325B978BF002A0255 /* PNScatterChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8925B978BE002A0255 /* PNScatterChartData.h */; };
+		AD518DC425B978BF002A0255 /* PNColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8A25B978BE002A0255 /* PNColor.h */; };
+		AD518DC525B978BF002A0255 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D8B25B978BE002A0255 /* PNChartLabel.m */; };
+		AD518DC625B978BF002A0255 /* PNRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8C25B978BE002A0255 /* PNRadarChart.h */; };
+		AD518DC725B978BF002A0255 /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D8D25B978BE002A0255 /* PNScatterChartDataItem.m */; };
+		AD518DC825B978BF002A0255 /* PNScatterChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D8E25B978BE002A0255 /* PNScatterChart.h */; };
+		AD518DC925B978BF002A0255 /* PNRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D8F25B978BE002A0255 /* PNRadarChartDataItem.m */; };
+		AD518DCA25B978BF002A0255 /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9025B978BE002A0255 /* PNGenericChart.m */; };
+		AD518DCB25B978BF002A0255 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9125B978BE002A0255 /* PNBarChart.m */; };
+		AD518DCC25B978BF002A0255 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9225B978BE002A0255 /* PNLineChart.m */; };
+		AD518DCD25B978BF002A0255 /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9325B978BE002A0255 /* PNCircleChart.m */; };
+		AD518DCE25B978BF002A0255 /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9425B978BE002A0255 /* PNLineChartData.m */; };
+		AD518DCF25B978BF002A0255 /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9525B978BE002A0255 /* PNLineChartDataItem.m */; };
+		AD518DD025B978BF002A0255 /* PNPieChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D9625B978BE002A0255 /* PNPieChartDataItem.h */; };
+		AD518DD125B978BF002A0255 /* PNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9725B978BE002A0255 /* PNPieChart.m */; };
+		AD518DD225B978BF002A0255 /* PNRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9825B978BE002A0255 /* PNRadarChart.m */; };
+		AD518DD325B978BF002A0255 /* PNChartLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D9925B978BE002A0255 /* PNChartLabel.h */; };
+		AD518DD425B978BF002A0255 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9A25B978BE002A0255 /* PNColor.m */; };
+		AD518DD525B978BF002A0255 /* PNScatterChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9B25B978BE002A0255 /* PNScatterChartData.m */; };
+		AD518DD625B978BF002A0255 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518D9C25B978BE002A0255 /* PNBar.m */; };
+		AD518DD725B978BF002A0255 /* PNBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D9D25B978BE002A0255 /* PNBarChart.h */; };
+		AD518DD825B978BF002A0255 /* PNGenericChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D9E25B978BE002A0255 /* PNGenericChart.h */; };
+		AD518DD925B978BF002A0255 /* PNRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518D9F25B978BE002A0255 /* PNRadarChartDataItem.h */; };
+		AD518DDA25B978BF002A0255 /* PNScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AD518DA025B978BE002A0255 /* PNScatterChart.m */; };
+		AD518DDB25B978BF002A0255 /* PNChartDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518DA125B978BE002A0255 /* PNChartDelegate.h */; };
+		AD518DDC25B978BF002A0255 /* PNScatterChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518DA225B978BE002A0255 /* PNScatterChartDataItem.h */; };
+		AD518DDD25B978BF002A0255 /* PNLineChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518DA325B978BE002A0255 /* PNLineChartData.h */; };
+		AD518DDE25B978BF002A0255 /* PNCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518DA425B978BE002A0255 /* PNCircleChart.h */; };
+		AD518DDF25B978BF002A0255 /* PNLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518DA525B978BE002A0255 /* PNLineChart.h */; };
+		AD518EAE25B97ED2002A0255 /* ZHTestSDKResources.h in Headers */ = {isa = PBXBuildFile; fileRef = AD518EAC25B97ED2002A0255 /* ZHTestSDKResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD518EB125B97ED2002A0255 /* ZHTestSDKResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD518EAA25B97ED2002A0255 /* ZHTestSDKResources.framework */; };
+		AD518EB225B97ED2002A0255 /* ZHTestSDKResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD518EAA25B97ED2002A0255 /* ZHTestSDKResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD518EC025B97F87002A0255 /* ZHResource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD518EBF25B97F87002A0255 /* ZHResource.xcassets */; };
+		ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC1E8324751692004B6FCC /* ZHTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF217992477B60800156FE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217982477B60800156FE8 /* AppDelegate.m */; };
+		ADF2179F2477B60800156FE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF2179E2477B60800156FE8 /* ViewController.m */; };
+		ADF217A22477B60800156FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A02477B60800156FE8 /* Main.storyboard */; };
+		ADF217A42477B60A00156FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A32477B60A00156FE8 /* Assets.xcassets */; };
+		ADF217A72477B60A00156FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A52477B60A00156FE8 /* LaunchScreen.storyboard */; };
+		ADF217AA2477B60A00156FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217A92477B60A00156FE8 /* main.m */; };
+		ADF217B02477B90000156FE8 /* ZHImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF217AE2477B90000156FE8 /* ZHImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF217B12477B90000156FE8 /* ZHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217AF2477B90000156FE8 /* ZHImageView.m */; };
+		ADF217B32477BA6400156FE8 /* ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */; };
+		ADF217CA247BCE8700156FE8 /* ZHHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF217C8247BCE8700156FE8 /* ZHHelper.h */; };
+		ADF217CB247BCE8700156FE8 /* ZHHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217C9247BCE8700156FE8 /* ZHHelper.m */; };
+		D909C4AEDEA79488299567B1 /* Pods_ZHTestSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EF5AED3663B59520A91C7D /* Pods_ZHTestSDKDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD518EAF25B97ED2002A0255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEC1E7724751692004B6FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD518EA925B97ED2002A0255;
+			remoteInfo = ZHTestSDKResources;
+		};
+		ADF217B52477BA6400156FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEC1E7724751692004B6FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEC1E7F24751692004B6FCC;
+			remoteInfo = ZHTestSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADF217B72477BA6400156FE8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD518EB225B97ED2002A0255 /* ZHTestSDKResources.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38EF5AED3663B59520A91C7D /* Pods_ZHTestSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHTestSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BB6AA2F7DFE9F1962FC2F1 /* Pods-ZHTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDK.release.xcconfig"; path = "Target Support Files/Pods-ZHTestSDK/Pods-ZHTestSDK.release.xcconfig"; sourceTree = "<group>"; };
+		AD518D6425B978BE002A0255 /* NSMutableArray+JBStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+JBStack.m"; sourceTree = "<group>"; };
+		AD518D6525B978BE002A0255 /* NSMutableArray+JBStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+JBStack.h"; sourceTree = "<group>"; };
+		AD518D6725B978BE002A0255 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		AD518D6925B978BE002A0255 /* JBGradientLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBGradientLineLayer.h; sourceTree = "<group>"; };
+		AD518D6A25B978BE002A0255 /* JBShapeLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBShapeLineLayer.h; sourceTree = "<group>"; };
+		AD518D6B25B978BE002A0255 /* JBGradientLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBGradientLineLayer.m; sourceTree = "<group>"; };
+		AD518D6C25B978BE002A0255 /* JBShapeLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBShapeLineLayer.m; sourceTree = "<group>"; };
+		AD518D6E25B978BE002A0255 /* JBLineChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartPoint.m; sourceTree = "<group>"; };
+		AD518D6F25B978BE002A0255 /* JBLineChartLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartLine.h; sourceTree = "<group>"; };
+		AD518D7025B978BE002A0255 /* JBLineChartLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartLine.m; sourceTree = "<group>"; };
+		AD518D7125B978BE002A0255 /* JBLineChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartPoint.h; sourceTree = "<group>"; };
+		AD518D7225B978BE002A0255 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		AD518D7425B978BE002A0255 /* JBLineChartDotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartDotsView.m; sourceTree = "<group>"; };
+		AD518D7525B978BE002A0255 /* JBLineChartDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartDotView.h; sourceTree = "<group>"; };
+		AD518D7625B978BE002A0255 /* JBLineChartLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartLinesView.m; sourceTree = "<group>"; };
+		AD518D7725B978BE002A0255 /* JBLineChartDotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartDotsView.h; sourceTree = "<group>"; };
+		AD518D7825B978BE002A0255 /* JBLineChartLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartLinesView.h; sourceTree = "<group>"; };
+		AD518D7925B978BE002A0255 /* JBLineChartDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartDotView.m; sourceTree = "<group>"; };
+		AD518D7B25B978BE002A0255 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		AD518D7D25B978BE002A0255 /* JBGradientBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBGradientBarView.h; sourceTree = "<group>"; };
+		AD518D7E25B978BE002A0255 /* JBGradientBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBGradientBarView.m; sourceTree = "<group>"; };
+		AD518D7F25B978BE002A0255 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		AD518D8125B978BE002A0255 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		AD518D8225B978BE002A0255 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		AD518D8425B978BE002A0255 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		AD518D8525B978BE002A0255 /* PNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChart.h; sourceTree = "<group>"; };
+		AD518D8625B978BE002A0255 /* PNPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChartDataItem.m; sourceTree = "<group>"; };
+		AD518D8725B978BE002A0255 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		AD518D8825B978BE002A0255 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		AD518D8925B978BE002A0255 /* PNScatterChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartData.h; sourceTree = "<group>"; };
+		AD518D8A25B978BE002A0255 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		AD518D8B25B978BE002A0255 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		AD518D8C25B978BE002A0255 /* PNRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChart.h; sourceTree = "<group>"; };
+		AD518D8D25B978BE002A0255 /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartDataItem.m; sourceTree = "<group>"; };
+		AD518D8E25B978BE002A0255 /* PNScatterChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChart.h; sourceTree = "<group>"; };
+		AD518D8F25B978BE002A0255 /* PNRadarChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChartDataItem.m; sourceTree = "<group>"; };
+		AD518D9025B978BE002A0255 /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		AD518D9125B978BE002A0255 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		AD518D9225B978BE002A0255 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		AD518D9325B978BE002A0255 /* PNCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNCircleChart.m; sourceTree = "<group>"; };
+		AD518D9425B978BE002A0255 /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		AD518D9525B978BE002A0255 /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		AD518D9625B978BE002A0255 /* PNPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChartDataItem.h; sourceTree = "<group>"; };
+		AD518D9725B978BE002A0255 /* PNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChart.m; sourceTree = "<group>"; };
+		AD518D9825B978BE002A0255 /* PNRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChart.m; sourceTree = "<group>"; };
+		AD518D9925B978BE002A0255 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		AD518D9A25B978BE002A0255 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		AD518D9B25B978BE002A0255 /* PNScatterChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartData.m; sourceTree = "<group>"; };
+		AD518D9C25B978BE002A0255 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		AD518D9D25B978BE002A0255 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		AD518D9E25B978BE002A0255 /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		AD518D9F25B978BE002A0255 /* PNRadarChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChartDataItem.h; sourceTree = "<group>"; };
+		AD518DA025B978BE002A0255 /* PNScatterChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChart.m; sourceTree = "<group>"; };
+		AD518DA125B978BE002A0255 /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		AD518DA225B978BE002A0255 /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartDataItem.h; sourceTree = "<group>"; };
+		AD518DA325B978BE002A0255 /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		AD518DA425B978BE002A0255 /* PNCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCircleChart.h; sourceTree = "<group>"; };
+		AD518DA525B978BE002A0255 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		AD518EAA25B97ED2002A0255 /* ZHTestSDKResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHTestSDKResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD518EAC25B97ED2002A0255 /* ZHTestSDKResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTestSDKResources.h; sourceTree = "<group>"; };
+		AD518EAD25B97ED2002A0255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD518EBF25B97F87002A0255 /* ZHResource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZHResource.xcassets; sourceTree = "<group>"; };
+		ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEC1E8324751692004B6FCC /* ZHTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTestSDK.h; sourceTree = "<group>"; };
+		ADEC1E8424751692004B6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHTestSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF217972477B60800156FE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADF217982477B60800156FE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADF2179D2477B60800156FE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADF2179E2477B60800156FE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADF217A12477B60800156FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF217A32477B60A00156FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF217A62477B60A00156FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF217A82477B60A00156FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF217A92477B60A00156FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADF217AE2477B90000156FE8 /* ZHImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHImageView.h; sourceTree = "<group>"; };
+		ADF217AF2477B90000156FE8 /* ZHImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHImageView.m; sourceTree = "<group>"; };
+		ADF217BE247BC9C300156FE8 /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTestSDKResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF217C0247BC9C300156FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF217C8247BCE8700156FE8 /* ZHHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHHelper.h; sourceTree = "<group>"; };
+		ADF217C9247BCE8700156FE8 /* ZHHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHHelper.m; sourceTree = "<group>"; };
+		CFD56B78416681A3D80B1033 /* Pods-ZHTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDK.debug.xcconfig"; path = "Target Support Files/Pods-ZHTestSDK/Pods-ZHTestSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A3D11694E861C49F99A88A /* Pods_ZHTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EF1BBC6BFA88DDD55CDD17 /* Pods-ZHTestSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE01EB49D1E840532473407F /* Pods-ZHTestSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD518EA725B97ED2002A0255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEC1E7D24751692004B6FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9297A7BA90449344266C278 /* Pods_ZHTestSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217922477B60800156FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF217B32477BA6400156FE8 /* ZHTestSDK.framework in Frameworks */,
+				D909C4AEDEA79488299567B1 /* Pods_ZHTestSDKDemo.framework in Frameworks */,
+				AD518EB125B97ED2002A0255 /* ZHTestSDKResources.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217BB247BC9C300156FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282CC81085F8E16D1B1782A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFD56B78416681A3D80B1033 /* Pods-ZHTestSDK.debug.xcconfig */,
+				49BB6AA2F7DFE9F1962FC2F1 /* Pods-ZHTestSDK.release.xcconfig */,
+				F5EF1BBC6BFA88DDD55CDD17 /* Pods-ZHTestSDKDemo.debug.xcconfig */,
+				FE01EB49D1E840532473407F /* Pods-ZHTestSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD518D6225B978BE002A0255 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D6325B978BE002A0255 /* Additions */,
+				AD518D6625B978BE002A0255 /* Line */,
+				AD518D7A25B978BE002A0255 /* Bar */,
+				AD518D8025B978BE002A0255 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD518D6325B978BE002A0255 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D6425B978BE002A0255 /* NSMutableArray+JBStack.m */,
+				AD518D6525B978BE002A0255 /* NSMutableArray+JBStack.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		AD518D6625B978BE002A0255 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D6725B978BE002A0255 /* JBLineChartView.m */,
+				AD518D6825B978BE002A0255 /* Layers */,
+				AD518D6D25B978BE002A0255 /* Models */,
+				AD518D7225B978BE002A0255 /* JBLineChartView.h */,
+				AD518D7325B978BE002A0255 /* Views */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		AD518D6825B978BE002A0255 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D6925B978BE002A0255 /* JBGradientLineLayer.h */,
+				AD518D6A25B978BE002A0255 /* JBShapeLineLayer.h */,
+				AD518D6B25B978BE002A0255 /* JBGradientLineLayer.m */,
+				AD518D6C25B978BE002A0255 /* JBShapeLineLayer.m */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		AD518D6D25B978BE002A0255 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D6E25B978BE002A0255 /* JBLineChartPoint.m */,
+				AD518D6F25B978BE002A0255 /* JBLineChartLine.h */,
+				AD518D7025B978BE002A0255 /* JBLineChartLine.m */,
+				AD518D7125B978BE002A0255 /* JBLineChartPoint.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD518D7325B978BE002A0255 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D7425B978BE002A0255 /* JBLineChartDotsView.m */,
+				AD518D7525B978BE002A0255 /* JBLineChartDotView.h */,
+				AD518D7625B978BE002A0255 /* JBLineChartLinesView.m */,
+				AD518D7725B978BE002A0255 /* JBLineChartDotsView.h */,
+				AD518D7825B978BE002A0255 /* JBLineChartLinesView.h */,
+				AD518D7925B978BE002A0255 /* JBLineChartDotView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD518D7A25B978BE002A0255 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D7B25B978BE002A0255 /* JBBarChartView.m */,
+				AD518D7C25B978BE002A0255 /* Views */,
+				AD518D7F25B978BE002A0255 /* JBBarChartView.h */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		AD518D7C25B978BE002A0255 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D7D25B978BE002A0255 /* JBGradientBarView.h */,
+				AD518D7E25B978BE002A0255 /* JBGradientBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD518D8025B978BE002A0255 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D8125B978BE002A0255 /* JBChartView.m */,
+				AD518D8225B978BE002A0255 /* JBChartView.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AD518D8325B978BE002A0255 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D8425B978BE002A0255 /* PNChart.h */,
+				AD518D8525B978BE002A0255 /* PNPieChart.h */,
+				AD518D8625B978BE002A0255 /* PNPieChartDataItem.m */,
+				AD518D8725B978BE002A0255 /* PNLineChartDataItem.h */,
+				AD518D8825B978BE002A0255 /* PNBar.h */,
+				AD518D8925B978BE002A0255 /* PNScatterChartData.h */,
+				AD518D8A25B978BE002A0255 /* PNColor.h */,
+				AD518D8B25B978BE002A0255 /* PNChartLabel.m */,
+				AD518D8C25B978BE002A0255 /* PNRadarChart.h */,
+				AD518D8D25B978BE002A0255 /* PNScatterChartDataItem.m */,
+				AD518D8E25B978BE002A0255 /* PNScatterChart.h */,
+				AD518D8F25B978BE002A0255 /* PNRadarChartDataItem.m */,
+				AD518D9025B978BE002A0255 /* PNGenericChart.m */,
+				AD518D9125B978BE002A0255 /* PNBarChart.m */,
+				AD518D9225B978BE002A0255 /* PNLineChart.m */,
+				AD518D9325B978BE002A0255 /* PNCircleChart.m */,
+				AD518D9425B978BE002A0255 /* PNLineChartData.m */,
+				AD518D9525B978BE002A0255 /* PNLineChartDataItem.m */,
+				AD518D9625B978BE002A0255 /* PNPieChartDataItem.h */,
+				AD518D9725B978BE002A0255 /* PNPieChart.m */,
+				AD518D9825B978BE002A0255 /* PNRadarChart.m */,
+				AD518D9925B978BE002A0255 /* PNChartLabel.h */,
+				AD518D9A25B978BE002A0255 /* PNColor.m */,
+				AD518D9B25B978BE002A0255 /* PNScatterChartData.m */,
+				AD518D9C25B978BE002A0255 /* PNBar.m */,
+				AD518D9D25B978BE002A0255 /* PNBarChart.h */,
+				AD518D9E25B978BE002A0255 /* PNGenericChart.h */,
+				AD518D9F25B978BE002A0255 /* PNRadarChartDataItem.h */,
+				AD518DA025B978BE002A0255 /* PNScatterChart.m */,
+				AD518DA125B978BE002A0255 /* PNChartDelegate.h */,
+				AD518DA225B978BE002A0255 /* PNScatterChartDataItem.h */,
+				AD518DA325B978BE002A0255 /* PNLineChartData.h */,
+				AD518DA425B978BE002A0255 /* PNCircleChart.h */,
+				AD518DA525B978BE002A0255 /* PNLineChart.h */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+		AD518EAB25B97ED2002A0255 /* ZHTestSDKResources */ = {
+			isa = PBXGroup;
+			children = (
+				AD518EBF25B97F87002A0255 /* ZHResource.xcassets */,
+				AD518EAC25B97ED2002A0255 /* ZHTestSDKResources.h */,
+				AD518EAD25B97ED2002A0255 /* Info.plist */,
+			);
+			path = ZHTestSDKResources;
+			sourceTree = "<group>";
+		};
+		ADEC1E7624751692004B6FCC = {
+			isa = PBXGroup;
+			children = (
+				ADEC1E8224751692004B6FCC /* ZHTestSDK */,
+				ADF217962477B60800156FE8 /* ZHTestSDKDemo */,
+				ADF217BF247BC9C300156FE8 /* ZHTestSDKResource */,
+				AD518EAB25B97ED2002A0255 /* ZHTestSDKResources */,
+				ADEC1E8124751692004B6FCC /* Products */,
+				ADF217B22477BA6400156FE8 /* Frameworks */,
+				282CC81085F8E16D1B1782A5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEC1E8124751692004B6FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */,
+				ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */,
+				ADF217BE247BC9C300156FE8 /* ZHTestSDKResource.bundle */,
+				AD518EAA25B97ED2002A0255 /* ZHTestSDKResources.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEC1E8224751692004B6FCC /* ZHTestSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D6225B978BE002A0255 /* Classes */,
+				AD518D8325B978BE002A0255 /* PNChart */,
+				ADEC1E8324751692004B6FCC /* ZHTestSDK.h */,
+				ADF217AE2477B90000156FE8 /* ZHImageView.h */,
+				ADF217AF2477B90000156FE8 /* ZHImageView.m */,
+				ADF217C8247BCE8700156FE8 /* ZHHelper.h */,
+				ADF217C9247BCE8700156FE8 /* ZHHelper.m */,
+				ADEC1E8424751692004B6FCC /* Info.plist */,
+			);
+			path = ZHTestSDK;
+			sourceTree = "<group>";
+		};
+		ADF217962477B60800156FE8 /* ZHTestSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ADF217972477B60800156FE8 /* AppDelegate.h */,
+				ADF217982477B60800156FE8 /* AppDelegate.m */,
+				ADF2179D2477B60800156FE8 /* ViewController.h */,
+				ADF2179E2477B60800156FE8 /* ViewController.m */,
+				ADF217A02477B60800156FE8 /* Main.storyboard */,
+				ADF217A32477B60A00156FE8 /* Assets.xcassets */,
+				ADF217A52477B60A00156FE8 /* LaunchScreen.storyboard */,
+				ADF217A82477B60A00156FE8 /* Info.plist */,
+				ADF217A92477B60A00156FE8 /* main.m */,
+			);
+			path = ZHTestSDKDemo;
+			sourceTree = "<group>";
+		};
+		ADF217B22477BA6400156FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3D11694E861C49F99A88A /* Pods_ZHTestSDK.framework */,
+				38EF5AED3663B59520A91C7D /* Pods_ZHTestSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADF217BF247BC9C300156FE8 /* ZHTestSDKResource */ = {
+			isa = PBXGroup;
+			children = (
+				ADF217C0247BC9C300156FE8 /* Info.plist */,
+			);
+			path = ZHTestSDKResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD518EA525B97ED2002A0255 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD518EAE25B97ED2002A0255 /* ZHTestSDKResources.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEC1E7B24751692004B6FCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD518DB625B978BF002A0255 /* JBLineChartLinesView.h in Headers */,
+				AD518DB025B978BF002A0255 /* JBLineChartPoint.h in Headers */,
+				AD518DDF25B978BF002A0255 /* PNLineChart.h in Headers */,
+				ADF217CA247BCE8700156FE8 /* ZHHelper.h in Headers */,
+				AD518DA725B978BF002A0255 /* NSMutableArray+JBStack.h in Headers */,
+				AD518DDB25B978BF002A0255 /* PNChartDelegate.h in Headers */,
+				AD518DC425B978BF002A0255 /* PNColor.h in Headers */,
+				AD518DC825B978BF002A0255 /* PNScatterChart.h in Headers */,
+				AD518DDE25B978BF002A0255 /* PNCircleChart.h in Headers */,
+				AD518DBF25B978BF002A0255 /* PNPieChart.h in Headers */,
+				AD518DD925B978BF002A0255 /* PNRadarChartDataItem.h in Headers */,
+				AD518DAE25B978BF002A0255 /* JBLineChartLine.h in Headers */,
+				AD518DC225B978BF002A0255 /* PNBar.h in Headers */,
+				AD518DB325B978BF002A0255 /* JBLineChartDotView.h in Headers */,
+				AD518DD325B978BF002A0255 /* PNChartLabel.h in Headers */,
+				AD518DDD25B978BF002A0255 /* PNLineChartData.h in Headers */,
+				AD518DBB25B978BF002A0255 /* JBBarChartView.h in Headers */,
+				AD518DC125B978BF002A0255 /* PNLineChartDataItem.h in Headers */,
+				AD518DB525B978BF002A0255 /* JBLineChartDotsView.h in Headers */,
+				AD518DC625B978BF002A0255 /* PNRadarChart.h in Headers */,
+				AD518DB925B978BF002A0255 /* JBGradientBarView.h in Headers */,
+				ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */,
+				ADF217B02477B90000156FE8 /* ZHImageView.h in Headers */,
+				AD518DD025B978BF002A0255 /* PNPieChartDataItem.h in Headers */,
+				AD518DAA25B978BF002A0255 /* JBShapeLineLayer.h in Headers */,
+				AD518DB125B978BF002A0255 /* JBLineChartView.h in Headers */,
+				AD518DBD25B978BF002A0255 /* JBChartView.h in Headers */,
+				AD518DD825B978BF002A0255 /* PNGenericChart.h in Headers */,
+				AD518DA925B978BF002A0255 /* JBGradientLineLayer.h in Headers */,
+				AD518DD725B978BF002A0255 /* PNBarChart.h in Headers */,
+				AD518DDC25B978BF002A0255 /* PNScatterChartDataItem.h in Headers */,
+				AD518DC325B978BF002A0255 /* PNScatterChartData.h in Headers */,
+				AD518DBE25B978BF002A0255 /* PNChart.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD518EA925B97ED2002A0255 /* ZHTestSDKResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD518EB325B97ED2002A0255 /* Build configuration list for PBXNativeTarget "ZHTestSDKResources" */;
+			buildPhases = (
+				AD518EA525B97ED2002A0255 /* Headers */,
+				AD518EA625B97ED2002A0255 /* Sources */,
+				AD518EA725B97ED2002A0255 /* Frameworks */,
+				AD518EA825B97ED2002A0255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTestSDKResources;
+			productName = ZHTestSDKResources;
+			productReference = AD518EAA25B97ED2002A0255 /* ZHTestSDKResources.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADEC1E7F24751692004B6FCC /* ZHTestSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEC1E8824751692004B6FCC /* Build configuration list for PBXNativeTarget "ZHTestSDK" */;
+			buildPhases = (
+				3CC9439B332FA6FFCB79E46C /* [CP] Check Pods Manifest.lock */,
+				ADEC1E7B24751692004B6FCC /* Headers */,
+				ADEC1E7C24751692004B6FCC /* Sources */,
+				ADEC1E7D24751692004B6FCC /* Frameworks */,
+				ADEC1E7E24751692004B6FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTestSDK;
+			productName = ZHTestSDK;
+			productReference = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADF217942477B60800156FE8 /* ZHTestSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF217AD2477B60A00156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKDemo" */;
+			buildPhases = (
+				17EFBAC6ED684B5648DCB87A /* [CP] Check Pods Manifest.lock */,
+				ADF217912477B60800156FE8 /* Sources */,
+				ADF217922477B60800156FE8 /* Frameworks */,
+				ADF217932477B60800156FE8 /* Resources */,
+				ADF217B72477BA6400156FE8 /* Embed Frameworks */,
+				8CFFC799CAD99ED89DCAF8C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF217B62477BA6400156FE8 /* PBXTargetDependency */,
+				AD518EB025B97ED2002A0255 /* PBXTargetDependency */,
+			);
+			name = ZHTestSDKDemo;
+			productName = ZHTestSDKDemo;
+			productReference = ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF217BD247BC9C300156FE8 /* ZHTestSDKResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF217C1247BC9C300156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKResource" */;
+			buildPhases = (
+				ADF217BA247BC9C300156FE8 /* Sources */,
+				ADF217BB247BC9C300156FE8 /* Frameworks */,
+				ADF217BC247BC9C300156FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTestSDKResource;
+			productName = ZHTestSDKResource;
+			productReference = ADF217BE247BC9C300156FE8 /* ZHTestSDKResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEC1E7724751692004B6FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zzh;
+				TargetAttributes = {
+					AD518EA925B97ED2002A0255 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					ADEC1E7F24751692004B6FCC = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					ADF217942477B60800156FE8 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					ADF217BD247BC9C300156FE8 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ADEC1E7A24751692004B6FCC /* Build configuration list for PBXProject "ZHTestSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEC1E7624751692004B6FCC;
+			productRefGroup = ADEC1E8124751692004B6FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEC1E7F24751692004B6FCC /* ZHTestSDK */,
+				ADF217942477B60800156FE8 /* ZHTestSDKDemo */,
+				ADF217BD247BC9C300156FE8 /* ZHTestSDKResource */,
+				AD518EA925B97ED2002A0255 /* ZHTestSDKResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD518EA825B97ED2002A0255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD518EC025B97F87002A0255 /* ZHResource.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEC1E7E24751692004B6FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217932477B60800156FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF217A72477B60A00156FE8 /* LaunchScreen.storyboard in Resources */,
+				ADF217A42477B60A00156FE8 /* Assets.xcassets in Resources */,
+				ADF217A22477B60800156FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217BC247BC9C300156FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EFBAC6ED684B5648DCB87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHTestSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC9439B332FA6FFCB79E46C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHTestSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFFC799CAD99ED89DCAF8C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD518EA625B97ED2002A0255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEC1E7C24751692004B6FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD518DCD25B978BF002A0255 /* PNCircleChart.m in Sources */,
+				AD518DCB25B978BF002A0255 /* PNBarChart.m in Sources */,
+				ADF217B12477B90000156FE8 /* ZHImageView.m in Sources */,
+				AD518DB425B978BF002A0255 /* JBLineChartLinesView.m in Sources */,
+				AD518DD125B978BF002A0255 /* PNPieChart.m in Sources */,
+				AD518DBA25B978BF002A0255 /* JBGradientBarView.m in Sources */,
+				AD518DC025B978BF002A0255 /* PNPieChartDataItem.m in Sources */,
+				AD518DD225B978BF002A0255 /* PNRadarChart.m in Sources */,
+				AD518DCC25B978BF002A0255 /* PNLineChart.m in Sources */,
+				AD518DBC25B978BF002A0255 /* JBChartView.m in Sources */,
+				AD518DD425B978BF002A0255 /* PNColor.m in Sources */,
+				AD518DDA25B978BF002A0255 /* PNScatterChart.m in Sources */,
+				AD518DB225B978BF002A0255 /* JBLineChartDotsView.m in Sources */,
+				AD518DA825B978BF002A0255 /* JBLineChartView.m in Sources */,
+				AD518DC725B978BF002A0255 /* PNScatterChartDataItem.m in Sources */,
+				AD518DAF25B978BF002A0255 /* JBLineChartLine.m in Sources */,
+				AD518DD525B978BF002A0255 /* PNScatterChartData.m in Sources */,
+				ADF217CB247BCE8700156FE8 /* ZHHelper.m in Sources */,
+				AD518DC925B978BF002A0255 /* PNRadarChartDataItem.m in Sources */,
+				AD518DC525B978BF002A0255 /* PNChartLabel.m in Sources */,
+				AD518DA625B978BF002A0255 /* NSMutableArray+JBStack.m in Sources */,
+				AD518DAB25B978BF002A0255 /* JBGradientLineLayer.m in Sources */,
+				AD518DCF25B978BF002A0255 /* PNLineChartDataItem.m in Sources */,
+				AD518DAC25B978BF002A0255 /* JBShapeLineLayer.m in Sources */,
+				AD518DB825B978BF002A0255 /* JBBarChartView.m in Sources */,
+				AD518DB725B978BF002A0255 /* JBLineChartDotView.m in Sources */,
+				AD518DCA25B978BF002A0255 /* PNGenericChart.m in Sources */,
+				AD518DCE25B978BF002A0255 /* PNLineChartData.m in Sources */,
+				AD518DD625B978BF002A0255 /* PNBar.m in Sources */,
+				AD518DAD25B978BF002A0255 /* JBLineChartPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217912477B60800156FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF2179F2477B60800156FE8 /* ViewController.m in Sources */,
+				ADF217992477B60800156FE8 /* AppDelegate.m in Sources */,
+				ADF217AA2477B60A00156FE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217BA247BC9C300156FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD518EB025B97ED2002A0255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD518EA925B97ED2002A0255 /* ZHTestSDKResources */;
+			targetProxy = AD518EAF25B97ED2002A0255 /* PBXContainerItemProxy */;
+		};
+		ADF217B62477BA6400156FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEC1E7F24751692004B6FCC /* ZHTestSDK */;
+			targetProxy = ADF217B52477BA6400156FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF217A02477B60800156FE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF217A12477B60800156FE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF217A52477B60A00156FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF217A62477B60A00156FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD518EB425B97ED2002A0255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PBFWN9MN6Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHTestSDKResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKResources;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD518EB525B97ED2002A0255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PBFWN9MN6Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHTestSDKResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKResources;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ADEC1E8624751692004B6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADEC1E8724751692004B6FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADEC1E8924751692004B6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD56B78416681A3D80B1033 /* Pods-ZHTestSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G52CMN8P9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHTestSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ADEC1E8A24751692004B6FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BB6AA2F7DFE9F1962FC2F1 /* Pods-ZHTestSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G52CMN8P9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHTestSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ADF217AB2477B60A00156FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EF1BBC6BFA88DDD55CDD17 /* Pods-ZHTestSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBFWN9MN6Q;
+				INFOPLIST_FILE = ZHTestSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF217AC2477B60A00156FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE01EB49D1E840532473407F /* Pods-ZHTestSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBFWN9MN6Q;
+				INFOPLIST_FILE = ZHTestSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADF217C2247BC9C300156FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PBFWN9MN6Q;
+				INFOPLIST_FILE = ZHTestSDKResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ADF217C3247BC9C300156FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PBFWN9MN6Q;
+				INFOPLIST_FILE = ZHTestSDKResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD518EB325B97ED2002A0255 /* Build configuration list for PBXNativeTarget "ZHTestSDKResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD518EB425B97ED2002A0255 /* Debug */,
+				AD518EB525B97ED2002A0255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEC1E7A24751692004B6FCC /* Build configuration list for PBXProject "ZHTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEC1E8624751692004B6FCC /* Debug */,
+				ADEC1E8724751692004B6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEC1E8824751692004B6FCC /* Build configuration list for PBXNativeTarget "ZHTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEC1E8924751692004B6FCC /* Debug */,
+				ADEC1E8A24751692004B6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF217AD2477B60A00156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF217AB2477B60A00156FE8 /* Debug */,
+				ADF217AC2477B60A00156FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF217C1247BC9C300156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF217C2247BC9C300156FE8 /* Debug */,
+				ADF217C3247BC9C300156FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEC1E7724751692004B6FCC /* Project object */;
+}

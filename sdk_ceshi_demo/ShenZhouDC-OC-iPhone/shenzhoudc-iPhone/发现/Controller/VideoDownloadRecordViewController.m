@@ -10,7 +10,7 @@
 //#import "VideoPlayViewController.h"
 #import "ZFDownloadManager.h"
 #import "MeChooseMenuView.h"
-#import "ZFPlayer.h"
+#import <ZFPlayer/ZFPlayer.h>
 #import "ZFDownloadingCell.h"
 #import "ZFDownloadedCell.h"
 #import "FileDownloadedCell.h"
@@ -49,7 +49,7 @@
 }
 
 - (void)makeUI {
-    MeChooseMenuView *menuView = [[MeChooseMenuView alloc] initWithFrame:CGRectMake(0, TOPBARHEIGHT, ScreenWidth, 45) titles:@[@"下载完成", @"下载中"]];
+    MeChooseMenuView *menuView = [[MeChooseMenuView alloc] initWithFrame:CGRectMake(0, TOPBARHEIGHT, 414, 45) titles:@[@"下载完成", @"下载中"]];
     [self.view addSubview:menuView];
     [menuView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(TOPBARHEIGHT);

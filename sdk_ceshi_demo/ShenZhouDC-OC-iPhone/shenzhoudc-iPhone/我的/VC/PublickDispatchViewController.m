@@ -10,7 +10,6 @@
 #import "SelectedImagesViewController.h"
 #import "PublicDispatchCell.h"
 #import "NSString+CustomString.h"
-#import "AFNetWorking.h"
 
 
 @interface PublickDispatchViewController ()<UITextViewDelegate,SelectedImagesViewControllerDelegate>

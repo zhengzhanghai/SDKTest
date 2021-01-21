@@ -8,7 +8,6 @@
 
 #import "MoreCollectionViewCell.h"
 #import "CommonMacro.h"
-#import "Masonry.h"
 #import "PaiModel.h"
 @interface MoreCollectionViewCell ()
 @property (nonatomic,strong) NSIndexPath *indexPath;

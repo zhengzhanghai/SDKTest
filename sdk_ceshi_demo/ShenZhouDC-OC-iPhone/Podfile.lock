@@ -1,39 +1,40 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - FDFullscreenPopGesture (1.1)
   - HMImagePicker (1.0.4)
-  - IQKeyboardManager (5.0.4)
-  - JSONModel (1.7.0)
+  - IQKeyboardManager (6.5.6)
+  - JSONModel (1.8.0)
   - LBXScan (1.1.1):
     - ZXingObjC (~> 3.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
-  - MJRefresh (3.1.14)
+  - MJRefresh (3.5.0)
   - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
-  - SDWebImage (3.8.2):
-    - SDWebImage/Core (= 3.8.2)
-  - SDWebImage/Core (3.8.2)
-  - SVProgressHUD (2.2.2)
-  - ZFPlayer (2.1.5):
-    - Masonry
-  - ZXingObjC (3.2.1):
-    - ZXingObjC/All (= 3.2.1)
-  - ZXingObjC/All (3.2.1)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SVProgressHUD (2.2.5)
+  - ZFPlayer (4.0.1):
+    - ZFPlayer/Core (= 4.0.1)
+  - ZFPlayer/Core (4.0.1)
+  - ZXingObjC (3.6.5):
+    - ZXingObjC/All (= 3.6.5)
+  - ZXingObjC/All (3.6.5)
   - ZYSideSlipFilter (0.5.0)
 
 DEPENDENCIES:
@@ -52,23 +53,41 @@ DEPENDENCIES:
   - ZFPlayer
   - ZYSideSlipFilter (~> 0.5.0)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - HMImagePicker
+    - IQKeyboardManager
+    - JSONModel
+    - LBXScan
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - ZFPlayer
+    - ZXingObjC
+    - ZYSideSlipFilter
+
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   HMImagePicker: 08e16f5ce2634c8290ddefb334368e7a8a6bffd2
-  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
-  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  MJRefresh: 6642e35b3227a5447b9fd5e17c552c90196c9859
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
-  ZFPlayer: 8a80bf8eb4638b97fbceaefcd3ca9978e9f17c9d
-  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
   ZYSideSlipFilter: 6946b221476c25a5e2d4acff44f1748349d01f62
 
-PODFILE CHECKSUM: f1018d33807cbccd6a384e7d01f41c1c58335c97
+PODFILE CHECKSUM: df94490c238ff1a4deb57bf1438ba12634cc61d9
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.9.3

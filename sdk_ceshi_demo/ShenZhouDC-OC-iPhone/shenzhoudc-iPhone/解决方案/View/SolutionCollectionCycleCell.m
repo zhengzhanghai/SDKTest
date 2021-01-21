@@ -7,7 +7,7 @@
 //
 
 #import "SolutionCollectionCycleCell.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 #import "ADSModel.h"
 
 @interface SolutionCollectionCycleCell()<SDCycleScrollViewDelegate>

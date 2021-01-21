@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 
 @interface ListBaseTableViewController : BaseViewController
 

@@ -7,7 +7,7 @@
 //
 
 #import "KeyProjectDetailsContentView.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 
 @interface KeyProjectDetailsContentView ()<SDCycleScrollViewDelegate>
 @property (strong, nonatomic) SDCycleScrollView *cycleView;

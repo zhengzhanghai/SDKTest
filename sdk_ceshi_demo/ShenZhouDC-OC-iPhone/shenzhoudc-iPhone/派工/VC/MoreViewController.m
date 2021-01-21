@@ -8,9 +8,8 @@
 
 #import "MoreViewController.h"
 #import "PaiTableViewCell.h"
-#import "Masonry.h"
-#import "ZYSideSlipFilterController.h"
-#import "ZYSideSlipFilterRegionModel.h"
+#import <ZYSideSlipFilter/ZYSideSlipFilterController.h>
+#import <ZYSideSlipFilter/ZYSideSlipFilterRegionModel.h>
 #import "CommonItemModel.h"
 #import "SideSlipCommonTableViewCell.h"
 #import "MoreCollectionViewCell.h"

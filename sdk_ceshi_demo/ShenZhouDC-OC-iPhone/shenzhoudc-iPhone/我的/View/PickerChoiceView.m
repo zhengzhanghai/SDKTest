@@ -21,7 +21,6 @@
 #define kfont 12
 
 #import "PickerChoiceView.h"
-#import "Masonry.h"
 
 static PickerChoiceView *picker = nil;
 

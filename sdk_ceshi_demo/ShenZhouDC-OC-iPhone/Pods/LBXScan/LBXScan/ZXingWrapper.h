@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "ZXBarcodeFormat.h"
+#import <ZXingObjC/ZXBarcodeFormat.h>
 
 
 /*!

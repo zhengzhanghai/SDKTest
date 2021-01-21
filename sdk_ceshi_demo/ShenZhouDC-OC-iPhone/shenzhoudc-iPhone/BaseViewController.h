@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "CommonMacro.h"
 #import "AINetworkEngine.h"
-#import "MBProgressHUD.h"
 
 // 加载列表数据方式
 typedef NS_ENUM(NSInteger, LoadListWay) {

@@ -7,7 +7,6 @@
 //
 
 #import "BaseViewController.h"
-#import "MJRefresh.h"
 #import "CommonItemModel.h"
 
 /** m每页加载的数量 */

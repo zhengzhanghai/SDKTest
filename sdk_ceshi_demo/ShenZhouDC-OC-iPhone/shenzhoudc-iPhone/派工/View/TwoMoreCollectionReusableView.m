@@ -7,7 +7,6 @@
 //
 
 #import "TwoMoreCollectionReusableView.h"
-#import "Masonry.h"
 
 @interface TwoMoreCollectionReusableView ()
 

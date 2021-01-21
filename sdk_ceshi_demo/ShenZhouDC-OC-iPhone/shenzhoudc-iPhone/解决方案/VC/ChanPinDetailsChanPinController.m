@@ -7,9 +7,7 @@
 //
 
 #import "ChanPinDetailsChanPinController.h"
-#import "MJRefresh.h"
-#import "MBProgressHUD.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 
 #import "ChanPinDetailsBaseInfoView.h" 
 #import "ChanPinDetailsMiddleVeiw.h"

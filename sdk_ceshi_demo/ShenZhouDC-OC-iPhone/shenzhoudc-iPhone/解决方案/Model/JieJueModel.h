@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JsonModel.h"
 #import "BaseModel.h"
 
 @interface JieJueModel : BaseModel

@@ -7,7 +7,6 @@
 //
 
 #import "MoreCollectionReusableView.h"
-#import "Masonry.h"
 
 @interface MoreCollectionReusableView ()
 @property (nonatomic,strong) UIImageView *imageV;

@@ -8,11 +8,11 @@
 
 #import "SideSlipCommonTableViewCell.h"
 #import "FilterCommonCollectionViewCell.h"
-#import "UIView+Utils.h"
+#import <ZYSideSlipFilter/UIView+Utils.h>
 #import "CommonItemModel.h"
-#import "UIColor+hexColor.h"
-#import "ZYSideSlipFilterConfig.h"
-#import "ZYSideSlipFilterController.h"
+#import <ZYSideSlipFilter/UIColor+hexColor.h>
+#import <ZYSideSlipFilter/ZYSideSlipFilterConfig.h>
+#import <ZYSideSlipFilter/ZYSideSlipFilterController.h>
 
 //#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
 #define FILTER_LEADING ((ZYSideSlipFilterController *)self.delegate).sideSlipLeading

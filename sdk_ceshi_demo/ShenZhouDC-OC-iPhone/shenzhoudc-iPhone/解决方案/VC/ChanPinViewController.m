@@ -7,7 +7,7 @@
 //
 
 #import "ChanPinViewController.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 #import "NetAPI.h"
 #import "JieJueModel.h"
 #import "ChanPinMoreViewController.h"

@@ -7,7 +7,7 @@
 //
 
 #import "CustomDetailHeaderView.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 
 @interface CustomDetailHeaderView ()<SDCycleScrollViewDelegate>
 @property (strong, nonatomic) SDCycleScrollView *cycleScrollView;

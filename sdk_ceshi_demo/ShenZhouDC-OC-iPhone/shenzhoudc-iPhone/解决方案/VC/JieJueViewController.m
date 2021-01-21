@@ -7,7 +7,7 @@
 //
 
 #import "JieJueViewController.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 #import "JieJueMoreViewController.h"
 #import "JieJueDetailsViewController.h"
 #import "AINetworkEngine.h"
@@ -17,7 +17,7 @@
 #import "ADSModel.h"
 //导入头文件
 #import "ScanViewController.h"
-#import "LBXScanViewController.h"
+#import <LBXScan/LBXScanViewController.h>
 #import "PlanModel.h"
 #import "SearchViewController.h"
 #import "TestView.h"

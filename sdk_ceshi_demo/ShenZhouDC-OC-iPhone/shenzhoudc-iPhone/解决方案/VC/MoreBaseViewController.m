@@ -8,8 +8,8 @@
 
 #import "MoreBaseViewController.h"
 #import "JieJueTableViewCell.h"
-#import "ZYSideSlipFilterController.h"
-#import "ZYSideSlipFilterRegionModel.h"
+#import <ZYSideSlipFilter/ZYSideSlipFilterController.h>
+#import <ZYSideSlipFilter/ZYSideSlipFilterRegionModel.h>
 #import "SideSlipCommonTableViewCell.h"
 
 

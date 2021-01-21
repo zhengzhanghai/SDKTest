@@ -7,7 +7,6 @@
 //
 
 #import "ThreeHootViewController.h"
-#import "Masonry.h"
 
 @interface ThreeHootViewController ()
 @property (nonatomic,strong) UIImageView *imageV ;

@@ -7,8 +7,7 @@
 //
 
 #import "PhotoSelecterCell.h"
-#import "Masonry.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface PhotoSelecterCell ()
 

@@ -14,8 +14,9 @@
 
 #endif /* PrefixHeader_pch */
 
-#import "Masonry.h"
-#import "UIImageView+WebCache.h"
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "CommonMacro.h"
 #import "GlobleFunction.h"
 #import "UIView+Extension.h"
@@ -23,10 +24,10 @@
 #import "AINetworkEngine.h"
 #import "UserModel.h"
 #import "UserBaseInfoModel.h"
-#import "MJRefresh.h"
+#import <MJRefresh/MJRefresh.h>
 #import "BaseModel.h"
 #import "NSDictionary+NSNullToString.h"
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 #import "NSDictionary+NSNullToString.h"
 #import "AppDelegate.h"
 #import "NoAutorotateAlertController.h"

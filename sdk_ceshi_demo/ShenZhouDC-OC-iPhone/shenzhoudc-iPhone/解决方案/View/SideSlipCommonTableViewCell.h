@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SideSlipBaseTableViewCell.h"
+#import <ZYSideSlipFilter/SideSlipBaseTableViewCell.h>
 
 typedef NS_ENUM(NSUInteger, CommonTableViewCellSelectionType) {
     BrandTableViewCellSelectionTypeSingle = 0,                  //单选

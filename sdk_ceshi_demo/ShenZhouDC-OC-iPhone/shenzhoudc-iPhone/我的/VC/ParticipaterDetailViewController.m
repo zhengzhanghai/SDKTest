@@ -11,7 +11,6 @@
 #import "ChoosePaymentViewController.h"
 #import "MyServiceViewController.h"
 #import "ChargeViewController.h"
-#import "IQKeyboardManager.h"
 #import "WKWebView+HeaderFooter.h"
 
 @interface ParticipaterDetailViewController ()<WKNavigationDelegate>

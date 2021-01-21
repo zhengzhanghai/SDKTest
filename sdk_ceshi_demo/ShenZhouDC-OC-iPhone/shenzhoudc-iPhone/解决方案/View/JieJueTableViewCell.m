@@ -7,7 +7,6 @@
 //
 
 #import "JieJueTableViewCell.h"
-#import "UIImageView+WebCache.h"
 
 @interface JieJueTableViewCell()
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;

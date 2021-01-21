@@ -7,7 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "LBXScanViewController.h"
+#import <LBXScan/LBXScanViewController.h>
 
 @interface ScanViewController : LBXScanViewController
 

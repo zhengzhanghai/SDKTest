@@ -7,7 +7,6 @@
 //
 
 
-#import "JSONModel.h"
 #import "BaseModel.h"
 
 @interface UserBaseInfoModel : BaseModel

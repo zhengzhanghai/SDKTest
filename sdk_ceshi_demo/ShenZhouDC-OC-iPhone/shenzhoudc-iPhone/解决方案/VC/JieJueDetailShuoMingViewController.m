@@ -7,9 +7,7 @@
 //
 
 #import "JieJueDetailShuoMingViewController.h"
-#import "MJRefresh.h"
-#import "MBProgressHUD.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 #import "GlobleFunction.h"
 
 #import "DetailsBaseInfoView.h"

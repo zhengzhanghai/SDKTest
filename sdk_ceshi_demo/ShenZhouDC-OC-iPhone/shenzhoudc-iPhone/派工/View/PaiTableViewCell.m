@@ -7,7 +7,6 @@
 //
 
 #import "PaiTableViewCell.h"
-#import "Masonry.h"
 #import "PaiModel.h"
 @interface PaiTableViewCell ()
 

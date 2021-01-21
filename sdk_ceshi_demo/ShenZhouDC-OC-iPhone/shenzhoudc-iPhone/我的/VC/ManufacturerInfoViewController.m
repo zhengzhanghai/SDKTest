@@ -8,7 +8,6 @@
 
 #import "ManufacturerInfoViewController.h"
 #import "SelectedImagesViewController.h"
-#import "AFNetworking.h"
 #import "MeMainViewController.h"
 #import "ProtocolModel.h"
 #import "ProtocolPDFViewController.h"

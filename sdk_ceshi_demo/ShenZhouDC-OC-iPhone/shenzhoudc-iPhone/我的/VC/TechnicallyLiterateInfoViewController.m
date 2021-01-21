@@ -7,7 +7,6 @@
 //
 
 #import "TechnicallyLiterateInfoViewController.h"
-#import "AFNetworking.h"
 #import "MeMainViewController.h"
 
 @interface TechnicallyLiterateInfoViewController ()<UITextFieldDelegate>

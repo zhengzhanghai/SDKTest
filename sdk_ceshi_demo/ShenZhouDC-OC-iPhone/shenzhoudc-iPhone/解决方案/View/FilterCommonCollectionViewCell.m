@@ -8,8 +8,8 @@
 
 #import "FilterCommonCollectionViewCell.h"
 #import "CommonItemModel.h"
-#import "UIColor+hexColor.h"
-#import "ZYSideSlipFilterConfig.h"
+#import <ZYSideSlipFilter/UIColor+hexColor.h>
+#import <ZYSideSlipFilter/ZYSideSlipFilterConfig.h>
 
 @interface FilterCommonCollectionViewCell ()
 @property (weak, nonatomic) IBOutlet UIButton *nameButton;

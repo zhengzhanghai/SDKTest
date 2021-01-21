@@ -14,7 +14,6 @@
 #import "CityModel.h"
 #import "RegionModel.h"
 #import "SelectedImagesViewController.h"
-#import "WXLoginShare.h"
 #import "ProtocolModel.h"
 #import "ProtocolPDFViewController.h"
 @interface SendDealViewController ()<UIPickerViewDelegate,UIPickerViewDataSource,UIScrollViewDelegate,UITextFieldDelegate,TFPickerDelegate,SelectedImagesViewControllerDelegate>

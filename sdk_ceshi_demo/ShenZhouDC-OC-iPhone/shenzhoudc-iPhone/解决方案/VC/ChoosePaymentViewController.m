@@ -8,9 +8,6 @@
 
 #import "ChoosePaymentViewController.h"
 #import "PayResultViewController.h"
-#import <AlipaySDK/AlipaySDK.h>
-#import "WXApi.h"
-#import "WXLoginShare.h"
 #import "UserBaseInfoModel.h"
 
 #define BTN_BASE_TAG 9485
@@ -284,43 +281,12 @@
 #pragma mark 调起支付宝进行支付,支付后刷新订单，根据订单判断支付结果
 - (void)aliPay:(NSString *)orderString {
     
-    [[AlipaySDK defaultService] payOrder:orderString fromScheme:AliScheme callback:^(NSDictionary *resultDic) {
-        
-        
-        
-    }];
+   
 }
 
 #pragma mark - 微信支付相关
 - (void)wechatPayment {
-    [self showLoadingToView:App_Delegate.window.rootViewController.view];
-    WXLoginShare *log = [WXLoginShare shareInstance];
-    [log getRechargeNumberWithPrice:_price appId:_appId orderId:_rechargeNo callBack:^(NSInteger type, NSString *message) {
-        [self hiddenLoading];
-        if (type == 0) {
-            _isGotoPay = false;
-            [self showError:self.view message:message afterHidden:3];
-        }
-    }];
-}
-
-#pragma mark 调起微信进行支付,支付后刷新订单，根据订单判断支付结果
-- (void)wxPay:(NSDictionary *)data {
-    PayReq *request = [[PayReq alloc] init];
-    request.partnerId = WXPartnerId;
-    /** 预支付订单 */
-    request.prepayId = data[@"prePayId"];
-    /** 商家根据财付通文档填写的数据和签名 */
-    request.package = @"Sign=WXPay";
-    /** 随机串，防重发 */
-    request.nonceStr = data[@"nonceStr"];
-    /** 时间戳，防重发 */
-    NSString *timeStr = data[@"timeStamp"];
-    NSNumber *timeNum = [[NSNumberFormatter alloc] numberFromString:timeStr];
-    request.timeStamp = timeNum.unsignedIntegerValue;
-    request.sign = data[@"paySign"];
-
     
-    [WXApi sendReq:request];
 }
+
 @end

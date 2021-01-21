@@ -11,15 +11,11 @@
 #import "ParticipateViewController.h"
 #import "DealViewController.h"
 #import "JoinInViewController.h"
-#import "WXLoginShare.h"
-#import "HXEasyCustomShareView.h"///分享
-#import <TencentOpenAPI/TencentOAuth.h>
-#import <TencentOpenAPI/QQApiInterface.h>
 #import "AppDelegate.h"
 #import <WebKit/WebKit.h>
 
 
-@interface ServiceDetailViewController ()<TencentSessionDelegate>
+@interface ServiceDetailViewController ()
 @property(nonatomic,strong) WKWebView *webView;
 @property(nonatomic,strong)UIScrollView *scrollView;
 @property(nonatomic,strong)DealViewController *dealVC;
@@ -82,104 +78,14 @@
     
     UILabel *lineLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, headerView.frame.size.width, 0.5)];
     lineLabel1.backgroundColor = [UIColor colorWithRed:208/255.0 green:208/255.0 blue:208/255.0 alpha:1.0];
-    
-    HXEasyCustomShareView *shareView = [[HXEasyCustomShareView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-    shareView.backView.backgroundColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
-    shareView.headerView = headerView;
-    float height = [shareView getBoderViewHeight:shareAry firstCount:7];
-    shareView.boderView.frame = CGRectMake(0, 0, shareView.frame.size.width, height);
-    shareView.middleLineLabel.hidden = YES;
-    [shareView.cancleButton addSubview:lineLabel1];
-    shareView.cancleButton.frame = CGRectMake(shareView.cancleButton.frame.origin.x, shareView.cancleButton.frame.origin.y, shareView.cancleButton.frame.size.width, 54);
-    shareView.cancleButton.titleLabel.font = [UIFont systemFontOfSize:16];
-    [shareView.cancleButton setTitleColor:[UIColor colorWithRed:184/255.0 green:184/255.0 blue:184/255.0 alpha:1.0] forState:UIControlStateNormal];
-    [shareView setShareAry:shareAry delegate:self];
-    [((AppDelegate *)([UIApplication sharedApplication].delegate)).window.rootViewController.view addSubview:shareView];
+   
 }
 
 // 发送图片文字链接
 - (void)showMediaNewsWithScene:(int)scene {
-    if ([TencentOAuth iphoneQQInstalled]) {
-        NSLog(@"请移步App Store去下载腾讯QQ客户端");
-    }else {
-        TencentOAuth *tencentOAuth = [[TencentOAuth alloc] initWithAppId:@"1104063046"
-                                                    andDelegate:self];
-        QQApiNewsObject *newsObj = [QQApiNewsObject
-                                    objectWithURL:[NSURL URLWithString:@"www.baidu.com"]
-                                    title:@"李易峰撞车了"
-                                    description:@"李易峰的兰博基尼被撞了李易峰的兰博基尼被撞了李易峰的兰博基尼被撞了"
-                                    previewImageURL:[NSURL URLWithString:@""]];
-        SendMessageToQQReq *req = [SendMessageToQQReq reqWithContent:newsObj];
-        if (scene == 0) {
-            NSLog(@"QQ好友列表分享 - %d",[QQApiInterface sendReq:req]);
-        }else if (scene == 1){
-            NSLog(@"QQ空间分享 - %d",[QQApiInterface SendReqToQZone:req]);
-        }
-    }
+   
 }
 
-
-#pragma mark HXEasyCustomShareViewDelegate
-
-- (void)easyCustomShareViewButtonAction:(HXEasyCustomShareView *)shareView title:(NSString *)title {
-    NSLog(@"当前点击:%@",title);
-    if ([title isEqualToString:@"微信好友"]) {
-        //创建发送对象实例
-        SendMessageToWXReq *sendReq = [[SendMessageToWXReq alloc] init];
-        sendReq.bText = NO;//不使用文本信息
-        sendReq.scene = 0;//0 = 好友列表 1 = 朋友圈 2 = 收藏
-        
-        //创建分享内容对象
-        WXMediaMessage *urlMessage = [WXMediaMessage message];
-        urlMessage.title = @"神州方案云-派工";//分享标题
-        urlMessage.description = @"派工";//分享描述
-        [urlMessage setThumbImage:[UIImage imageNamed:@"logoyun"]];//分享图片,使用SDK的setThumbImage方法可压缩图片大小
-        
-        //创建多媒体对象
-        WXWebpageObject *webObj = [WXWebpageObject object];
-        webObj.webpageUrl = [NSString stringWithFormat:@"%@%@?orderSn=%@&type=getOrderDetail",DOMAIN_NAME_H5,H5_CONTENT,self.orderSn];//分享链接
-        
-        //完成发送对象实例
-        urlMessage.mediaObject = webObj;
-        sendReq.message = urlMessage;
-        
-        //发送分享信息
-        [WXApi sendReq:sendReq];
-        
-    }
-    if ([title isEqualToString:@"朋友圈"]) {
-        
-        SendMessageToWXReq *sendReq = [[SendMessageToWXReq alloc] init];
-        sendReq.bText = NO;//不使用文本信息
-        sendReq.scene = 1;//0 = 好友列表 1 = 朋友圈 2 = 收藏
-        
-        //创建分享内容对象
-        WXMediaMessage *urlMessage = [WXMediaMessage message];
-        urlMessage.title = @"神州方案云-派工";//分享标题
-        urlMessage.description = @"派工";//分享描述
-        [urlMessage setThumbImage:[UIImage imageNamed:@"logoyun"]];//分享图片,使用SDK的setThumbImage方法可压缩图片大小
-        
-        //创建多媒体对象
-        WXWebpageObject *webObj = [WXWebpageObject object];
-        webObj.webpageUrl =  [NSString stringWithFormat:@"%@%@?orderSn=%@&type=getOrderDetail",DOMAIN_NAME_H5,H5_CONTENT,self.orderSn];//分享链接
-        
-        //完成发送对象实例
-        urlMessage.mediaObject = webObj;
-        sendReq.message = urlMessage;
-        
-        //发送分享信息
-        [WXApi sendReq:sendReq];
-
-        
-        
-    }
-    if ([title isEqualToString:@"QQ"]) {
-        [self showMediaNewsWithScene:0];
-    }
-    if ([title isEqualToString:@"QQ空间"]) {
-         [self showMediaNewsWithScene:1];
-    }
-}
 
 
 

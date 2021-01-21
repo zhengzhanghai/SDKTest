@@ -8,18 +8,12 @@
 
 
 #import "AppDelegate.h"
-#import "WXLoginShare.h"
-#import <AlipaySDK/AlipaySDK.h>//Alipay
-#import "RSADataSigner.h"//Alipay
 #import "SZHomeViewController.h"
 #import "BaseNaviViewController.h"
 #import "UIDevice+XJDevice.h"
-#import <TencentOpenAPI/TencentOAuth.h>
 
 
 @interface AppDelegate ()
-@property (nonatomic,strong)WXLoginShare *wXLoginShare;
-//@property(nonatomic,copy) alipayResultBlock alipayBlock;
 @end
 
 @implementation AppDelegate
@@ -31,12 +25,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.wXLoginShare  = [WXLoginShare shareInstance];
-    [self.wXLoginShare WXLoginShareRegisterApp];
-    [self.wXLoginShare WXLoginShareMesg];
-
-    [[TencentOAuth alloc] initWithAppId:@"1104063046" andDelegate:nil]; //注册
-    
+ 
 //    if ([[[UIDevice currentDevice] model] isEqualToString:@"iPad"]) {
 //        
 //        [UIDevice setOrientation:UIInterfaceOrientationLandscapeRight];
@@ -62,28 +51,15 @@
 
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    if ([url.scheme isEqualToString:WXAPPID]) {
-        id wXLoginShare = self.wXLoginShare;
-        return  [WXApi handleOpenURL:url delegate:wXLoginShare];
-    }else if([url.host isEqualToString:@"safepay"]) {
-       [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
-           NSLog(@"openURL result: %@",resultDic);
-           NSString *resultStatus = resultDic[@"resultStatus"];
-           NSLog(@"支付宝客户端返回的状态码--> ** %@",resultStatus);
-           if (self.alipayBlock != nil) {
-               self.alipayBlock(resultStatus);
-           }
-           
-       }];
-    }
+   
+    
     
     return YES;
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
     
-    id idwXLoginShare = self.wXLoginShare;
-    return [WXApi handleOpenURL:url delegate:idwXLoginShare];
+    return true;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

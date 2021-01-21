@@ -7,8 +7,6 @@
 //
 
 #import "WithdrawChooseViewController.h"
-#import "WXLoginShare.h"
-#import <AlipaySDK/AlipaySDK.h>
 #import "BindingAlipayViewController.h"
 
 @interface WithdrawChooseViewController ()
@@ -218,13 +216,7 @@
         vc.hidesBottomBarWhenPushed = true;
         [self.navigationController pushViewController:vc animated:true];
     } else if (type == 2) {
-        [[WXLoginShare shareInstance] fetchOpenIdController:self success:^(NSString *openId) {
-            NSLog(@"************ openId ************");
-            NSLog(@"%@", openId);
-            [self bindingWechat:openId];
-        } failure:^(NSString *message) {
-            [self showError:self.view message:message afterHidden:2];
-        }];
+        
         
     }
 }

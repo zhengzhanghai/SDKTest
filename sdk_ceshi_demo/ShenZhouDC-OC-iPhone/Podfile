@@ -13,10 +13,9 @@ target ‘shenzhoudc-iPhone’ do
     pod 'MJRefresh'
     pod 'ZYSideSlipFilter', '~> 0.5.0'
     pod 'SDCycleScrollView','~> 1.64'
-    pod 'ZFPlayer'
     pod 'FDFullscreenPopGesture'
     pod 'SVProgressHUD'
-     pod 'LBXScan', '1.1.1'
+#    pod 'LBXScan', '1.1.1'
 
 end
 #post_install do |installer|

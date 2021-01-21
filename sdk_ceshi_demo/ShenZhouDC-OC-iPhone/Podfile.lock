@@ -18,8 +18,6 @@ PODS:
   - HMImagePicker (1.0.4)
   - IQKeyboardManager (6.5.6)
   - JSONModel (1.8.0)
-  - LBXScan (1.1.1):
-    - ZXingObjC (~> 3.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.5.0)
@@ -29,12 +27,6 @@ PODS:
     - SDWebImage/Core (= 3.8.3)
   - SDWebImage/Core (3.8.3)
   - SVProgressHUD (2.2.5)
-  - ZFPlayer (4.0.1):
-    - ZFPlayer/Core (= 4.0.1)
-  - ZFPlayer/Core (4.0.1)
-  - ZXingObjC (3.6.5):
-    - ZXingObjC/All (= 3.6.5)
-  - ZXingObjC/All (3.6.5)
   - ZYSideSlipFilter (0.5.0)
 
 DEPENDENCIES:
@@ -43,14 +35,12 @@ DEPENDENCIES:
   - HMImagePicker (~> 1.0.4)
   - IQKeyboardManager
   - JSONModel
-  - LBXScan (= 1.1.1)
   - Masonry
   - MBProgressHUD (~> 1.0.0)
   - MJRefresh
   - SDCycleScrollView (~> 1.64)
   - SDWebImage (~> 3.8)
   - SVProgressHUD
-  - ZFPlayer
   - ZYSideSlipFilter (~> 0.5.0)
 
 SPEC REPOS:
@@ -60,15 +50,12 @@ SPEC REPOS:
     - HMImagePicker
     - IQKeyboardManager
     - JSONModel
-    - LBXScan
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - SDCycleScrollView
     - SDWebImage
     - SVProgressHUD
-    - ZFPlayer
-    - ZXingObjC
     - ZYSideSlipFilter
 
 SPEC CHECKSUMS:
@@ -77,17 +64,14 @@ SPEC CHECKSUMS:
   HMImagePicker: 08e16f5ce2634c8290ddefb334368e7a8a6bffd2
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
-  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
   ZYSideSlipFilter: 6946b221476c25a5e2d4acff44f1748349d01f62
 
-PODFILE CHECKSUM: df94490c238ff1a4deb57bf1438ba12634cc61d9
+PODFILE CHECKSUM: 49041206c3071f316042dd6fc1b16829e0a2c469
 
 COCOAPODS: 1.9.3

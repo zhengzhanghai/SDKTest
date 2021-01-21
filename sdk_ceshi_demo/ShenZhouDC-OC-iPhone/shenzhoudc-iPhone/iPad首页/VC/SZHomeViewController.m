@@ -16,8 +16,6 @@
 #import "SZJieJueViewController.h"
 #import "QuoteToolViewController.h"
 #import "VideoCenterViewController.h"
-#import "DownloadManagerViewController.h"
-
 #define BottomHeight 67
 #define MenuWidth SCREEN_WIDTH*0.3
 
@@ -30,7 +28,6 @@
 @property (strong, nonatomic) SZJieJueViewController *jieJueVC;
 @property (strong, nonatomic) QuoteToolViewController *quoteToolVC;
 @property (strong, nonatomic) VideoCenterViewController *videoVC;
-@property (strong, nonatomic) DownloadManagerViewController *downloadVC;
 
 @end
 
@@ -140,11 +137,7 @@
             break;
         case 5:
         {
-            if (!_downloadVC) {
-                [self addChildVCAndView:self.downloadVC];
-            } else {
-                [self.view bringSubviewToFront:self.downloadVC.view];
-            }
+            
         }
             break;
         default:
@@ -215,12 +208,6 @@
     return _videoVC;
 }
 
-- (DownloadManagerViewController *)downloadVC {
-    if (!_downloadVC) {
-        _downloadVC = [[DownloadManagerViewController alloc] init];
-    }
-    return _downloadVC;
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ZFPlayer/ZFPlayer.h>
+//#import <ZFPlayer/ZFPlayer.h>
 //#import "ZFDownloadManager.h"
 
 @interface ZFDownloadedCell : UITableViewCell

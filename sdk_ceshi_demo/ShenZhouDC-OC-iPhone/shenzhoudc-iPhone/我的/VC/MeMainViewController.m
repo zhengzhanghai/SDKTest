@@ -19,7 +19,6 @@
 #import "MyDispatchViewController.h"
 #import "MyRequireMentViewController.h"
 #import "MyDownloadViewController.h"
-#import "VideoDownloadRecordViewController.h"
 #import "MyServiceViewController.h"
 #import "MyKeyProjectViewController.h"
 //发布
@@ -368,9 +367,6 @@
         }
         NSString *cellTitle = [_cellTitleDict[type] objectAtIndex:indexPath.row];
         if ([cellTitle isEqualToString:@"我的下载"]) {
-            VideoDownloadRecordViewController *vc = [[VideoDownloadRecordViewController alloc]init];
-            vc.hidesBottomBarWhenPushed = YES;
-            [self.navigationController pushViewController:vc animated:YES];
         } else if ([cellTitle isEqualToString:@"我的方案"]) {
             MyPlanViewController *vc = [[MyPlanViewController alloc]init];
             vc.type = 1;
